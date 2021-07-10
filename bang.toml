@@ -1,0 +1,11 @@
+[task]
+cmd = python splus.py {input} -o {output}
+
+[input]
+type = s3
+path = s3://mybucket
+
+[output]
+path = s3://mybucket/output
+
+
